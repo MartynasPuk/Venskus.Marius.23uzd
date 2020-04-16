@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="design_navigation_view">
+
+    <item android:title="Miestas">
+        <menu>
+            <item android:id="@+id/nav_drusk"
+                android:title="Druskininkai" />
+            <item android:id="@+id/birs"
+                android:title="Birštonas" />
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_checkin"
+            android:title="Registruotis"/>
+        <item android:id="@+id/nav_notifications"
+            android:title="Pranešimai"/>
+        <item android:id="@+id/nav_profile"
+            android:title="Mano profilis"/>
+        <item android:id="@+id/nav_incidents"
+            android:title="Gedimų registracija"/>
+        <item android:id="@+id/nav_news"
+            android:title="Naujienos"/>
+        <item android:id="@+id/nav_events"
+            android:title="Pramogos ir renginiai"/>
+        <item android:id="@+id/nav_about"
+            android:title="Apie sanatoriją"/>
+        <item android:id="@+id/nav_rules"
+            android:title="Taisyklės"/>
+        <item android:id="@+id/nav_logout"
+            android:title="Atsijungti"/>
+    </group>
+
+</menu>
